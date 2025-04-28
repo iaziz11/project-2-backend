@@ -18,3 +18,5 @@ steps:
         npm run start
 
 timeout: "900s" # Optional, adjust if needed for your build time
+options:
+  logging: CLOUD_LOGGING_ONLY # or set logsBucket here
